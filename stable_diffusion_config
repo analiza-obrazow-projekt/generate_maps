@@ -1,0 +1,24 @@
+tool: stable_diffusion_webui (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+gpu: amd 5700 XT
+command_line_arguments: ./webui.sh --precision full --no-half
+
+stable_diffusion_checkpoint: mdjrny-v4.ckpt [5d5ad06cc2] (https://huggingface.co/prompthero/openjourney/blob/main/mdjrny-v4.ckpt)
+mode: img2img
+starting_image: starting_image.png
+positive_prompt: map, network of white roads, dark background, curvy,  highways, streets, and avenues, infrastructure, aerial view 2d, monochrome, scheme, layout
+negative_prompt: colorful, river, 
+sampling method: LMS
+sampling_steps: 66
+
+resize_mode: just_resize
+restore_faces: false
+tiling: false
+tab: resize_to
+width: 512
+height: 512
+batch_count: 100
+batch_size: 1
+cfg_scale: 7
+denoising_strength: 0.75
+seed: 2
+script: None
