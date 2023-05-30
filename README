@@ -1,3 +1,6 @@
+link to generated maps and config and starting image: https://drive.google.com/drive/folders/14smSzAGWJILG1kOH3ANi6Sf6BoZEnI7y
+
+config:
 tool: stable_diffusion_webui (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 gpu: amd 5700 XT
 command_line_arguments: ./webui.sh --precision full --no-half
